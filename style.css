@@ -1,3 +1,5 @@
-h3, .h3 {
-    font-size: 1.640625rem;
+table.bordered, table.bordered th, table.bordered td {
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding: 1rem;
 }
