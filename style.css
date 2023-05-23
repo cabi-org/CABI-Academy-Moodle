@@ -93,3 +93,30 @@ padding: 5px;
 #filter-tabs-titlegroup-1, #filter-tabs-titlegroup-1-printable {
   display: none;
 }
+
+/*Changes the appearance of headings that appear within questions, within quizzes*/
+.sc-ion-label-md-s h1{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h3{
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.sc-ion-label-md-s h5{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
