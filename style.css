@@ -136,6 +136,6 @@ padding: 5px;
 padding: 0.5rem;
 }
 
-.h4.card-title {
-    color: red;
+.card-title {
+    color: red !important;
 }
