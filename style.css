@@ -125,3 +125,13 @@ padding: 5px;
     margin-bottom: 0.8rem;
     font-size: 1rem;
 }
+
+/*Removes the underlining from hyperlinks*/
+a {
+    text-decoration: none;
+}
+
+/*Adds padding to the textual items within the Cabi cards*/
+.card-body, .posBottom {
+padding: 0.5rem;
+}
