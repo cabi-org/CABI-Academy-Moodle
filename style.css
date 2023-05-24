@@ -128,7 +128,7 @@ padding: 5px;
 
 /*Removes the underlining from hyperlinks*/
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /*Adds padding to the textual items within the Cabi cards*/
