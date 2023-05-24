@@ -94,7 +94,7 @@ padding: 5px;
   display: none;
 }
 
-/*Changes the appearance of headings that appear within questions, within quizzes*/
+/*Changes the appearance of headings that appear within questions, within things like quizzes, and the front page cards*/
 .sc-ion-label-md-s h1{
     margin-bottom: 0.5rem;
     font-size: 2rem;
