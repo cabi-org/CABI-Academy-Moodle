@@ -136,6 +136,9 @@ padding: 5px;
 padding: 0.5rem;
 }
 
-.content {
-background-color: #004587 !important;
-}
+/*Change the colours of the activity icons*/
+.content, .other {background-color: #004587 !important;}
+.collaboration, .assessment {background-color: #cd4400 !important;}
+.communication {background-color: #368729 !important;}
+.administration {background-color: #333333 !important;}
+
