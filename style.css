@@ -148,5 +148,5 @@ padding: 0.5rem;
 
 /*Changes the font size of activity headings*/
 .collapsible-header-floating-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
 }
