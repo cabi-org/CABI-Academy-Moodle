@@ -146,7 +146,7 @@ padding: 0.5rem;
 .communication {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
-
+/*Changes the font size of activity headings*/
 .collapsible-header-floating-title {
     font-size: 1.5rem;
 }
