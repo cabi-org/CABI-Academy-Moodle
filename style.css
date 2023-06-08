@@ -114,7 +114,7 @@ padding: 5px;
     font-size: 1.4rem;
     font-weight: 700;
 }
-.sc-ion-label-md-s h4{
+.sc-ion-label-md-s h4, .sc-ion-label-ios-s h4{
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
     font-weight: 700;
