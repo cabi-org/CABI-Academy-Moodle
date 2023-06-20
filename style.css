@@ -147,6 +147,6 @@ padding: 0.5rem;
 .administration {background-color: #333333 !important;}
 
 /*Changes the format of how discussion forums are displayed*/
-.md ion-label .item-heading, .ios ion-label .item-heading  {
+.addon-mod-forum-discussion.item .addon-mod-forum-discussion-title {
     color: #73aa6b;
 }
