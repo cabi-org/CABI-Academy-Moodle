@@ -146,3 +146,7 @@ padding: 0.5rem;
 .communication {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
+/*Changes the format of how discussion forums are displayed*/
+.md ion-label .item-heading, .ios ion-label .item-heading  {
+    color: #73aa6b;
+}
