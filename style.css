@@ -157,7 +157,7 @@ html.md div.fake-ion-item h4 {
     font-weight: 600;
 }
 
-
+/*Within the Cloze question type, it puts a multiple response set of answers inside a bordered box so looks similar to a multiple choice question*/
 .answer {
     display: block;
     margin-inline-start: 2px;
@@ -171,4 +171,9 @@ html.md div.fake-ion-item h4 {
     border-style: groove;
     border-color: rgb(192, 192, 192);
     border-image: initial;
+}
+
+/*Within Cloze questions, paragraphs didn't have a bottom margin, this puts that back in*/
+html.md div.fake-ion-item p {
+    margin-bottom: 0.8rem;
 }
