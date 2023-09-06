@@ -158,7 +158,7 @@ html.md div.fake-ion-item h4, html.ios div.fake-ion-item h4 {
 }
 
 /*Within the Cloze question type, it puts a multiple response set of answers inside a bordered box so looks similar to a multiple choice question*/
-.answer {
+.fake-ion-item core-format-text .answer {
     display: block;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
