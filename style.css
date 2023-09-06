@@ -181,3 +181,13 @@ html.md div.fake-ion-item p {
 html.ios div.fake-ion-item p {
     margin-bottom: 0.8rem;
 }
+
+/*Adds a right margin after radio button*/
+.ios ion-radio, .ios input[type=radio], .select-alert.ios .alert-radio-icon {
+    margin-right: 0.4rem;
+}
+
+/*Adds a right margin after checkboxes*/
+.ios input[type=checkbox] {
+    margin-right: 0.4rem;
+}
