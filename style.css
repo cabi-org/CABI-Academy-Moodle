@@ -192,6 +192,7 @@ html.ios div.fake-ion-item p {
     margin-right: 0.4rem;
 }
 
+/*Formats the primary button*/
 .btn-primary {
     color: #fff;
     background-color: #CD4400;
@@ -204,4 +205,12 @@ html.ios div.fake-ion-item p {
     font-size: .9375rem;
     line-height: 1.5;
     transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+/*formats how items appears at the bottom of the flexboxes found on the front page*/
+.posBottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
