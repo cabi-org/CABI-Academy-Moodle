@@ -191,3 +191,8 @@ html.ios div.fake-ion-item p {
 .ios input[type=checkbox] {
     margin-right: 0.4rem;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #CD4400;
+}
