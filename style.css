@@ -223,7 +223,6 @@ html.ios div.fake-ion-item p {
  color: black;
   --f:16px; /* ribbon font-size */
   position: relative;
-
 }
 .cornerribbon::before {
   content: attr(data-ribbon);
