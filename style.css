@@ -343,3 +343,13 @@ html.ios div.fake-ion-item p {
   border-color:transparent #fff;
 }
 /*End of speech bubble*/
+
+/*method of having an icon showing floating on the right as created by MB*/
+.CABIicon {
+  float:right;
+  margin-left: 1rem;
+  width: 20%;
+}
+.CABIicon img {
+  width: 100%;
+}
