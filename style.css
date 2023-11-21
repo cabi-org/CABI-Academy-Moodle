@@ -353,7 +353,3 @@ html.ios div.fake-ion-item p {
 .CABIicon img {
   width: 100%;
 }
-
-.activityiconcontainer.collaboration .activityicon, .activityiconcontainer.collaboration .icon {
-    filter: brightness(0) invert(1);
-}
