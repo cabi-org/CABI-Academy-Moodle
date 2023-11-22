@@ -353,3 +353,75 @@ html.ios div.fake-ion-item p {
 .CABIicon img {
   width: 100%;
 }
+
+/*Mechanism for adding icons to content*/
+/*This decides how the icons behave*/
+.CABI_Icon {
+  float:right;
+ margin-left: 1rem;
+ margin-right: 1rem;
+width: 10%;
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.LearningOutcomes {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/17/bullseye-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.CaseStudy {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/18/magnifying-glass-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.FurtherReading {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/book-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.Discuss {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/comments-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.Reflect {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/arrows-spin-solid.svg?time=1700656131491");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.Choose {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/arrow-right-arrow-left-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.CheckUnderstanding {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/user-check-solid.svg");
+}
+
+/*This changes the colour of an svg icon that is used within a course - the idea being that we can have different colour icons for different sections if that is desirable*/
+/*use https://change-svg-color.vercel.app/ to change colour if needed*/
+
+/*This colour is currently set to CABI green*/
+.Color01 {
+filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
+}
+
+/*This colour is currently set to CABI green*/
+.Color02 {
+filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
+}
+
+/*This colour is currently set to CABI green*/
+.Color03 {
+filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
+}
+
+/*This colour is currently set to CABI green*/
+.Color04 {
+filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
+}
+
+/*This colour is currently set to CABI green*/
+.Color05 {
+filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
+}
