@@ -397,6 +397,11 @@ width: 100%;
 }
 
 /*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
+.TopicIntro {
+    content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/24/list-check-solid.svg");
+}
+
+/*Each icon has a unique class and file URL which comes from https://academy.cabi.org/mod/page/view.php?id=10412*/
 .Reflect {
     content: url("https://academy.cabi.org/pluginfile.php/97059/mod_page/content/20/arrows-spin-solid.svg?time=1700656131491");
 }
