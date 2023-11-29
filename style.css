@@ -344,6 +344,12 @@ html.ios div.fake-ion-item p {
 }
 /*End of speech bubble*/
 
+/*Additional class that can be applied to bordered box, to turn it into a centre column (used for creating a linear flowhart)*/
+.CenteredColumn {
+    max-width: 40rem;
+    margin: auto;
+}
+
 /*method of having an icon showing floating on the right as created by MB*/
 .CABIicon {
   float:right;
