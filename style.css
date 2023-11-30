@@ -450,3 +450,8 @@ filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%)
 .Color05 {
 filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
 }
+
+/*Makes the description box in activities taller initially before it needs to be expanded*/
+core-format-text#collapsible-item-1 {
+    --collapsible-height: 200px;
+}
