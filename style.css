@@ -130,11 +130,6 @@ padding: 5px;
     font-size: 1rem;
 }
 
-/*Hides the grading method from benig shown when in a quiz - this may affect other things, so need to check*/
-ion-list.md.list-md.hydrated {
-    display: none;
-}
-
 /*Removes the underlining from hyperlinks*/
 .core-anchor, core-format-text a {
     text-decoration: none;
