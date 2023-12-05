@@ -215,9 +215,10 @@ html.ios div.fake-ion-item p {
    margin-bottom: 10px;
 }
 
-/*wrap text inside buttons, if the text is too long*/
-.button-inner {
+/*wrap text inside buttons, if the text is too long (e.g. the buttons within subcourse activity)*/
+ion-button.button.button-solid, ion-button.button.button-outline {
     text-wrap: wrap;
+    --border-radius: var(--core-input-radius);
 }
 
 /* BUBBLE WITH A BORDER AND TRIANGLE */
