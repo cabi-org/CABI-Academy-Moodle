@@ -216,7 +216,7 @@ html.ios div.fake-ion-item p {
 }
 
 /*wrap text inside buttons, if the text is too long (e.g. the buttons within subcourse activity)*/
-ion-button.button.button-solid, ion-button.button.button-outline {
+ion-button {
     text-wrap: wrap;
 }
 
