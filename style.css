@@ -215,6 +215,11 @@ html.ios div.fake-ion-item p {
    margin-bottom: 10px;
 }
 
+/*wrap text inside buttons, if the text is too long*/
+.button-inner {
+    text-wrap: wrap;
+}
+
 /* BUBBLE WITH A BORDER AND TRIANGLE */
 /*Source: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/ */
 
