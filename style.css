@@ -1,3 +1,7 @@
+.button-native {
+    text-wrap: wrap;
+}
+
 /*Applies borders and padding to tables that have the class of .bordered applied*/
 table.bordered, table.bordered th, table.bordered td {
     border: 1px solid #ddd;
