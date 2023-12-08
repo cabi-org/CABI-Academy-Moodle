@@ -2,7 +2,7 @@
 blockquote {
     border-left: 5px solid #c9c9c9;
     font-style: italic;
-    padding-left 1rem
+    padding-left: 1rem
 }
 blockquote:after {
     content: "\2013 \2003" attr(cite);
