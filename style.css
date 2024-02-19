@@ -474,6 +474,7 @@ filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%)
   display: grid;
   grid-template-columns: 50% 50%;
   border: #000000 3px solid;
+  margin-bottom: 0.75rem;
 }
 /*Creates the cells that go into the 2x2 grid*/
 .cell2by2 {
