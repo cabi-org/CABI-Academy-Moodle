@@ -468,3 +468,23 @@ filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%)
 .Color05 {
 filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%) contrast(83%);
 }
+
+/* Creates a 2x2 grid eg a SWOT Analysis*/
+.grid2by2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: #000000 3px solid;
+}
+/*Creates the cells that go into the 2x2 grid*/
+.cell2by2 {
+  border: #000000 2px solid;
+  min-height: 150px;
+  padding: 0.5rem;
+}
+/*On narrower screens, change the grid so that it displays single column width*/
+@media screen and (max-width: 45em) {
+      .grid2by2 {
+          grid-template-columns: 100%;
+      }
+  }
+/*End of 2x2 grid*/
