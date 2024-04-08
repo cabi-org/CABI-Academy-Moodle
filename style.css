@@ -489,3 +489,16 @@ filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%)
       }
   }
 /*End of 2x2 grid*/
+
+/*Creates the basic details/summary style accordion*/
+.BasicAccordion {
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+summary {
+    font-weight: 600;
+}
