@@ -516,8 +516,8 @@ summary {
 .c4l-reminder::after, .c4lv-reminder::after {
     content: url(https://academy.cabi.org/theme/image.php/cabi/tiny_c4l/1712743205/noun_project_icons/c4l_reminder);
     position: absolute;
-    top: 6px;
-    right: -3px;
+    top: 3px;
+    right: -6px;
 }
 
 /*Makes buttons in lessons green rather than white*/
