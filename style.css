@@ -513,3 +513,10 @@ summary {
     position: relative;
     border-radius: 0;
 }
+
+/*Makes buttons in lessons green rather than white*/
+#page-mod-lesson-view .branchbuttoncontainer .singlebutton button[type="submit"] {
+    background-color: #368729;
+    border-color: #333;
+    color: #ffffff !important;
+}
