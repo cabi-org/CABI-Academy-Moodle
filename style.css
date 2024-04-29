@@ -521,7 +521,7 @@ summary {
 }
 
 /*Makes buttons in lessons green rather than white*/
-#page-mod-lesson-view .branchbuttoncontainer .singlebutton button[type="submit"] {
+.button-native {
     background-color: #368729;
     border-color: #333;
     color: #ffffff !important;
