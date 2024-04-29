@@ -519,10 +519,3 @@ summary {
     top: 0px;
     right: -3px;
 }
-
-/*Makes buttons in lessons green rather than white*/
-.button-native {
-    background-color: #368729;
-    border-color: #333;
-    color: #ffffff !important;
-}
