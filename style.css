@@ -502,3 +502,14 @@ filter: invert(43%) sepia(16%) saturate(2069%) hue-rotate(65deg) brightness(96%)
 summary {
     font-weight: 600;
 }
+
+/*Formats the c4l reminder*/
+.c4l-reminder, .c4lv-reminder {
+    background-color: #eff8fd;
+    padding: 12px 24px 15px 18px;
+    border: none;
+    border-left: 6px solid #16b9ff;
+    margin: 36px auto;
+    position: relative;
+    border-radius: 0;
+}
