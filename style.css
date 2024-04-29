@@ -517,7 +517,7 @@ summary {
     content: url(https://academy.cabi.org/theme/image.php/cabi/tiny_c4l/1712743205/noun_project_icons/c4l_reminder);
     position: absolute;
     top: 0px;
-    right: -3px;
+    right: 0px;
 }
 
 /*Formats the c4l tip*/
@@ -534,5 +534,5 @@ summary {
     content: url(https://academy.cabi.org/theme/image.php/cabi/tiny_c4l/1712743205/noun_project_icons/c4l_tip);
     position: absolute;
     top: 0px;
-    right: -3px;
+    right: 0px;
 }
