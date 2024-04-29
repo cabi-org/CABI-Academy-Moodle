@@ -513,6 +513,12 @@ summary {
     position: relative;
     border-radius: 0;
 }
+.c4l-reminder::after, .c4lv-reminder::after {
+    content: url(/theme/image.php/cabi/tiny_c4l/1712743205/noun_project_icons/c4l_reminder);
+    position: absolute;
+    top: 6px;
+    right: -3px;
+}
 
 /*Makes buttons in lessons green rather than white*/
 #page-mod-lesson-view .branchbuttoncontainer .singlebutton button[type="submit"] {
