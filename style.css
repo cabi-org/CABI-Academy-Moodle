@@ -250,6 +250,7 @@ html.ios div.fake-ion-item p {
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
   border-radius:10px;
+  min-height: 75px;
 }
 
 /* Variant : for left positioned triangle
@@ -264,6 +265,11 @@ html.ios div.fake-ion-item p {
 
 .triangle-border.right {
   margin-right:100px;
+}
+
+/*Sets the width of the icon next to the speech bubble*/
+.SpeechIcon {
+   width: 75px;
 }
 
 /* THE TRIANGLE
