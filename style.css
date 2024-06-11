@@ -42,6 +42,10 @@ table.bordered thead {
     border-style: solid;
     border-width: 2px;
 }
+/*Stops the images in the card from having rounded corners*/
+.CABI_Card img {
+    border-radius: 0;
+}
 
 /*Formats captions (note the correct class is CABIcaption, but attostylecaption is used in some historic courses*/
 .CABIcaption ,.attostylescaption {
