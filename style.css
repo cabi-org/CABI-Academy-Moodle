@@ -542,8 +542,3 @@ summary {
     top: 0px;
     right: 0px;
 }
-
-/*Hides the course category lozenge from showing on the dashboard*/
-ion-chip.core-course-category {
-    display: none;
-}
