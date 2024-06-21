@@ -568,7 +568,7 @@ ion-chip.core-course-category {
   margin-right:160px;
   margin-bottom: 10px;
   border:3px solid #368729;
-  color:#333;
+  color:#000000;
   background:#fff;
   /* css3 */
   -webkit-border-radius:10px;
@@ -596,7 +596,7 @@ ion-chip.core-course-category {
   position:absolute;
   top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
   bottom:auto;
-  left:-21px; /* value = - border-left-width - border-right-width */
+  left:-20px; /* value = - border-left-width - border-right-width */
   border-width:9px 21px 9px 0;
   border-style:solid;
   border-color:transparent #fff;
@@ -611,9 +611,9 @@ ion-chip.core-course-category {
   margin-left:160px;
   margin-right:160px;
   margin-bottom: 10px;
-  border:3px solid #368729;
-  color:#333;
-  background:#fff;
+  border:3px solid #E1EDDF;
+  color:#000000;
+  background:#E1EDDF;
   /* css3 */
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
@@ -630,7 +630,7 @@ ion-chip.core-course-category {
   right:-30px; /* value = - border-left-width - border-right-width */
   border-width:15px 0 15px 30px;
   border-style:solid;
-  border-color:transparent #368729;
+  border-color:transparent #E1EDDF;
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
@@ -645,15 +645,62 @@ ion-chip.core-course-category {
   right:-20px; /* value = - border-left-width - border-right-width */
   border-width:9px 0 9px 21px;
   border-style:solid;
-  border-color:transparent #fff;
+  border-color:transparent #E1EDDF;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+.speech3 {
+  position:relative;
+  padding:1.7rem 0.5rem 0.5rem 0.8rem;
+  margin-left:160px;
+  margin-right:160px;
+  margin-bottom: 10px;
+  border:3px solid #2B6C21;
+  color:#ffffff;
+  background: #2B6C21;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  min-height: 150px;
+  font-size: 1.2rem;
+}
+.speech3:before {
+  content:"";
+  position:absolute;
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:auto;
+  right:-30px; /* value = - border-left-width - border-right-width */
+  border-width:15px 0 15px 30px;
+  border-style:solid;
+  border-color:transparent #2B6C21;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+/* creates the smaller  triangle */
+.speech3:after {
+  content:"";
+  position:absolute;
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:auto;
+  right:-20px; /* value = - border-left-width - border-right-width */
+  border-width:9px 0 9px 21px;
+  border-style:solid;
+  border-color:transparent #2B6C21;
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
 }
 
 
+
 /*Used to add in the name of the speaker in the speech bubbles*/
-.speechname {
+.speechname1, .speechname2 {
     --f: 1px;
     --r: 5px;
     --t: 0px;
@@ -663,7 +710,19 @@ ion-chip.core-course-category {
     border-radius: 0.5rem 0 0.5rem 0;
 font-weight: 700;
 font-size: 0.9rem;
-color: #B3B6B7;
+color: #666666;
+}
+.speechname3 {
+    --f: 1px;
+    --r: 5px;
+    --t: 0px;
+    position: absolute;
+    inset: 0 auto auto 0.25px;
+    padding: 5px 10px calc(5px + var(--f)) calc(10px + var(--r));
+    border-radius: 0.5rem 0 0.5rem 0;
+font-weight: 700;
+font-size: 0.9rem;
+color: #D5E2D3;
 }
 
 /*On narrower screens, change the Speech Icons so they are narrower, and make changes to the speech bubble sizes*/
