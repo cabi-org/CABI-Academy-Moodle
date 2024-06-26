@@ -541,7 +541,7 @@ summary {
 /*Formats the c4l tip*/
 .c4l-tip, .c4lv-tip {
     background-color: #fbeffa;
-    padding: 12px 24px 15px 18px;
+    padding: 12px 35px 15px 18px;
     border: none;
     border-left: 6px solid #b00ca9;
     margin: 36px auto;
@@ -742,4 +742,9 @@ width: 75px !important;
 .triangle-border ,.speech1 ,.speech2 ,.speech3 {
 min-height: 75px !important;
 }
+}
+
+/*Adds a margin between list items*/
+li {
+    margin-bottom: 0.5rem;
 }
