@@ -748,3 +748,11 @@ min-height: 75px !important;
 li {
     margin-bottom: 0.5rem;
 }
+
+/*This changes the behaviour of the choice activity, to show the description full height and to hide the collapsible arrow*/
+core-format-text#collapsible-item-1 {
+    height: 100%;
+}
+span.collapsible-toggle-arrow {
+    display: none;
+}
