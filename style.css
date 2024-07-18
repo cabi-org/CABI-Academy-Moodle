@@ -748,3 +748,8 @@ min-height: 75px !important;
 li {
     margin-bottom: 0.5rem;
 }
+
+/*Stops words from wrapping mid-word, especially in tables*/
+core-format-text {
+    word-break: normal;
+}
