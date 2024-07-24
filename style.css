@@ -52,6 +52,27 @@ table.bordered thead {
     border-radius: 0rem !Important;
 }
 
+/*These cards are used in teaching materials and will have a fixed width*/
+.CABI_Fixed_Card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+    border-color: #d7dfe3;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+   padding: 0.5rem;
+}
+/*Sets the card width to 220px*/
+.cardwidth220 {
+    width: 220px;
+}
+/*Sets the card width to 440px*/
+.cardwidth440 {
+    width: 440px;
+}
+
 /*Formats captions (note the correct class is CABIcaption, but attostylecaption is used in some historic courses*/
 .CABIcaption ,.attostylescaption {
     font-size: 0.8rem;
