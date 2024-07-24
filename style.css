@@ -44,6 +44,8 @@ table.bordered thead {
 }
 .CABI_Card h3, .CABI_Card h4, .CABI_Card h5, .CABI_Card h6 {
    text-align: center;
+   margin-top: 0.5rem;
+   margin-bottom: 0.7rem;
 }
 /*Stops the images in the card from having rounded corners*/
 .CABI_Card img {
