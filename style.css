@@ -589,6 +589,57 @@ ion-chip.core-course-category {
 }
 
 /*New Speech bubbles*/
+/*If we want a call out that has no triangle then use the following:*/
+.speech1_notriangle {
+  position:relative;
+  padding:1.7rem 0.5rem 0.5rem 0.8rem;
+  margin-left:160px;
+  margin-right:160px;
+  margin-bottom: 10px;
+  border:3px solid #368729;
+  color:#000000;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  min-height: 150px;
+  font-size: 1.2rem;
+}
+.speech2_notriangle {
+  position:relative;
+  padding:1.7rem 0.5rem 0.5rem 0.8rem;
+  margin-left:160px;
+  margin-right:160px;
+  margin-bottom: 10px;
+  border:3px solid #E1EDDF;
+  color:#000000;
+  background:#E1EDDF;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  min-height: 150px;
+  font-size: 1.2rem;
+}
+.speech3_notriangle {
+  position:relative;
+  padding:1.7rem 0.5rem 0.5rem 0.8rem;
+  margin-left:160px;
+  margin-right:160px;
+  margin-bottom: 10px;
+  border:3px solid #2B6C21;
+  color:#ffffff;
+  background: #2B6C21;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  min-height: 150px;
+  font-size: 1.2rem;
+}
+
+/*If we want the speech bubble including the triangle, then use the following*/
 .speech1 {
   position:relative;
   padding:1.7rem 0.5rem 0.5rem 0.8rem;
