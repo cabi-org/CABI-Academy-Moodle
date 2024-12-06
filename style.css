@@ -841,3 +841,30 @@ core-format-text {
     margin: 0.5rem auto;
     position: relative;
 }
+
+/*mechanism for creating different coloured borderd circled icons, that contain text*/
+/*The basic circle*/
+.circleicon {
+    border-style: solid;
+    border-width: 0.7rem;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+   margin:1rem;
+}
+}
+/*The large text in the circle*/
+p.circleicontextXL {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+    margin-top: 2rem;
+}
+/*The basic text within the circle*/
+p.circleicontext {
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*the different colour borders*/
+.purplecircle {border-color: #72309d}
