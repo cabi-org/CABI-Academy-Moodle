@@ -854,7 +854,7 @@ core-format-text {
 }
 }
 /*The large text in the circle*/
-p.circleicontextXL {
+circleicontextXL {
     text-align: center;
     font-size: 3rem;
     font-weight: 800;
@@ -862,7 +862,7 @@ p.circleicontextXL {
     margin-top: 2rem;
 }
 /*The basic text within the circle*/
-p.circleicontext {
+circleicontext {
     text-align: center;
     font-size: 1.2rem;
 }
