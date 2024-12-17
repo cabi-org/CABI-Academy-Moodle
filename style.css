@@ -880,7 +880,12 @@ circleicontext {
     font-size: 1.2rem;
 }
 /*the different colour borders*/
-.purplecircle {border-color: #72309d}
+.purplecircle {border-color: #a05EB5}
+.greencircle {border-color: #368729}
+.orangecircle {border-color: #cd4400}
+.blackcircle {border-color: #000000}
+.darkbluecircle {border-color: #004587}
+.pinkcircle {border-color: e10098}
 
 /*Folder corner ribbon as per https://codepen.io/t_afif/pen/dyZOBex */
 .ribbon-2 {
