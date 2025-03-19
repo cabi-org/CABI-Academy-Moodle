@@ -211,14 +211,18 @@ padding: 5px;
 padding: 0.5rem;
 }
 
+/*Makes other icons (e.g. questionnaire have green background*/
+.core-mod-icon.version_40.colorize.ng-star-inserted.sc-ion-label-md {
+    background-color: #368729 !important;
+}
 /*Change the colours of the activity icons*/
 .content, .other {background-color: #004587 !important;}
 .communication, .collaboration, .assessment {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
-.addon-mod_lesson-handler .content, .addon-mod_questionnaire-handler .content {
+.addon-mod_lesson-handler .content{
     background-color: #368729 !important;
-}
+}    
 
 /*Changes the format of how discussion forums are displayed*/
 .addon-mod-forum-discussion.item .addon-mod-forum-discussion-title {
