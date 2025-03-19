@@ -216,7 +216,7 @@ padding: 0.5rem;
 .communication, .collaboration, .assessment {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
-.addon-mod_lesson-handler .content {
+.addon-mod_lesson-handler .content, .addon-mod_questionnaire-handler .content {
     background-color: #368729 !important;
 }
 
