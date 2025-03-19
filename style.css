@@ -967,6 +967,14 @@ color: #fff;
 text-align: center;
 }
 
+/*Creates the card mechanism on the 'Available courses' page*/
+.gridcontainer_coursecards {
+    border-color: lightgrey;
+    border-width: thin;
+    border-style: solid;
+    margin: 2px;
+    padding: 5px;
+}
 /*Creates meta data pills*/
 /*Apply this class to the <p> for the line that it will appear on*/
 .metadatapills {
