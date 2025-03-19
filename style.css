@@ -1006,3 +1006,9 @@ text-align: center;
 img.userpicture.core-media-adapt-width {
     border-radius: 50%;
 }
+
+/*Hides certain information from appearing on the course summary page of a course*/
+core-reminders-date.ng-star-inserted.sc-ion-label-md {display: none}
+.core-customfield.core-customfield_generico.core-customfield_text.ng-star-inserted.sc-ion-label-md {display: none}
+.core-customfield.core-customfield_descriptor.core-customfield_select.ng-star-inserted.sc-ion-label-md (display: none}
+.core-customfield.core-customfield_select.core-customfield_type.ng-star-inserted.sc-ion-label-md {display: none}
