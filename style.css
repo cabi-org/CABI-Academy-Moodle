@@ -217,6 +217,10 @@ padding: 0.5rem;
 .communication {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
+.addon-mod_lesson-handler .content {
+    background-color: #cd4400 !important;
+}
+
 /*Changes the format of how discussion forums are displayed*/
 .addon-mod-forum-discussion.item .addon-mod-forum-discussion-title {
     color: #73aa6b;
