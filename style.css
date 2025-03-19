@@ -212,7 +212,7 @@ padding: 0.5rem;
 }
 
 /*Makes other icons (e.g. questionnaire have green background*/
-.core-mod-icon.version_40.colorize.ng-star-inserted.sc-ion-label-md {
+core-mod-icon.version_40.colorize.ng-star-inserted.sc-ion-label-md {
     background-color: #368729 !important;
 }
 /*Change the colours of the activity icons*/
