@@ -991,3 +991,8 @@ text-align: center;
     padding: 0.1rem 0.3rem 0.1rem 0.3rem;
     margin-right: 0.5rem;
 }
+
+/*Makes the user picture round when viewed on the dashboard*/
+img.userpicture.core-media-adapt-width {
+    border-radius: 50%;
+}
