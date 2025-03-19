@@ -967,3 +967,19 @@ color: #fff;
 text-align: center;
 }
 
+/*Creates meta data pills*/
+/*Apply this class to the <p> for the line that it will appear on*/
+.metadatapills {
+    margin-bottom: 0.3rem !important;
+}
+/*Apply this using span class for each of the pills*/
+.pill {
+    font-size: 0.75rem;
+    color: #205119;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d7e7d4;
+    border-radius: 1rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    margin-right: 0.5rem;
+}
