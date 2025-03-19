@@ -215,6 +215,9 @@ padding: 0.5rem;
 .version_40.colorize.ng-star-inserted.sc-ion-label-md {
     background-color: #368729 !important;
 }
+img.ng-star-inserted.sc-ion-label-md {
+    filter: brightness(0) invert(1);
+}
 /*Change the colours of the activity icons*/
 .content, .other {background-color: #004587 !important;}
 .communication, .collaboration, .assessment {background-color: #368729 !important;}
