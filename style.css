@@ -213,12 +213,11 @@ padding: 0.5rem;
 
 /*Change the colours of the activity icons*/
 .content, .other {background-color: #004587 !important;}
-.collaboration, .assessment {background-color: #cd4400 !important;}
-.communication {background-color: #368729 !important;}
+.communication, .collaboration, .assessment {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
 .addon-mod_lesson-handler .content {
-    background-color: #cd4400 !important;
+    background-color: #368729 !important;
 }
 
 /*Changes the format of how discussion forums are displayed*/
