@@ -1020,5 +1020,5 @@ core-reminders-date.ng-star-inserted.sc-ion-label-md {display: none}
 /*Puts a bigger margin after paragraphs*/
 p
 {
-    margin-bottom: 10px;
+    margin-bottom: 0.8rem !important;
 }
