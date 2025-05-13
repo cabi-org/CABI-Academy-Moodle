@@ -1016,3 +1016,9 @@ core-reminders-date.ng-star-inserted.sc-ion-label-md {display: none}
 .core-customfield.core-customfield_related02.core-customfield_text.ng-star-inserted.sc-ion-label-md {display: none}
 .core-customfield.core-customfield_related03.core-customfield_text.ng-star-inserted.sc-ion-label-md {display: none}
 .core-customfield.core-customfield_related04.core-customfield_text.ng-star-inserted.sc-ion-label-md {display: none}
+
+/*Puts a border around a Moodle video*/
+.core-media-adapt-width {
+    border-style: solid;
+    border-width: thin;
+}
