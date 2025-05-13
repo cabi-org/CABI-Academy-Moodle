@@ -1020,5 +1020,11 @@ core-reminders-date.ng-star-inserted.sc-ion-label-md {display: none}
 /*Puts a bigger margin after paragraphs*/
 p
 {
-    margin-bottom: 0.8rem !important;
+    margin-bottom: 0.7rem !important;
+}
+
+/*puts a border around videos*/
+video {
+    border-style: solid;
+    border-width: thin;
 }
