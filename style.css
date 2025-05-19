@@ -13,7 +13,7 @@ blockquote:after {
 }
 
 /*Applies borders and padding to tables that have the class of .bordered applied*/
-table.bordered, table.bordered th, table.bordered td {
+table.bordered, table.bordered th, table.bordered td, table.bordered.sc-ion-label-md {
     border: 1px solid #ddd;
     vertical-align: top;
     padding: 0.5rem;
