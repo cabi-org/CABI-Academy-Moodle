@@ -1028,3 +1028,11 @@ video {
     border-style: solid;
     border-width: thin;
 }
+
+/*Adds yelllow shading to text, used in RPR in the example label resource*/
+.attostylestextmarker.attostylestextmarker-yellow {
+    background: #ffc;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
