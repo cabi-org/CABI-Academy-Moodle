@@ -223,6 +223,11 @@ img.ng-star-inserted.sc-ion-label-md {
 .communication, .collaboration, .assessment {background-color: #368729 !important;}
 .administration {background-color: #333333 !important;}
 
+/*The above changes had an undesired side effect of making the background of notifications message to be same as 'content', the following changes this back to white*/
+td.content.sc-ion-label-md {
+    background-color: #ffffff !important;
+}
+
 .addon-mod_lesson-handler .content{
     background-color: #368729 !important;
 }    
