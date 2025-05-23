@@ -224,7 +224,7 @@ img.ng-star-inserted.sc-ion-label-md {
 .administration {background-color: #333333 !important;}
 
 /*The above changes had an undesired side effect of making the background of notifications message to be same as 'content', the following changes this back to white*/
-td.content.sc-ion-label-md {
+td.content.sc-ion-label-md, td.content.sc-ion-label-ios {
     background-color: #ffffff !important;
 }
 
